@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="mb-4">About me</h1>
 
       <img
-          src="public/image0.jpeg"
+          src="https://ecoretainingwalls.com/wp-content/uploads/2024/08/Laura.jpg"
           alt="About Me"
           className="img-fluid rounded-circle shadow"
           style={{ maxWidth: '200px' }} // Limit the size of the image
