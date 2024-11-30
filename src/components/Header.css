@@ -1,0 +1,27 @@
+.bg-banner {
+    background-image: url('../assets/banner.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust as needed */
+  }
+  
+  /* Navigation link hover effect */
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f8c471; /* Adjust hover color */
+    text-decoration: underline; /* Optional */
+  }
+
+  @media (max-width: 768px) {
+    .bg-banner {
+      height: 150px; /* Adjust height for smaller devices */
+    }
+  
+    .nav {
+      flex-wrap: wrap; /* Stack nav items */
+    }
+  }
+

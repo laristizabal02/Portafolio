@@ -1,0 +1,16 @@
+.bg-light-purple {
+    background-color: #9f84b9; /* Light purple */
+  }
+  .icon-links a {
+    font-size: 2rem; /* Adjust icon size */
+    margin: 0 10px; /* Add spacing between icons */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effects */
+  .icon-links a:hover {
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+    color: #7d4cff; /* Change icon color on hover */
+  }

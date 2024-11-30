@@ -1,0 +1,9 @@
+.bg-light-purple {
+    background-color: #f3e6ff; /* Light purple */
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease;
+  }
